@@ -1,0 +1,39 @@
+# macOS and IDE files
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+
+# Local environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tests and static analysis
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ML runtime artifacts
+catboost_info/
+
+# Local datasets and generated outputs
+# Use DVC or Git LFS if these files need to be versioned.
+data/*.csv
+data/candles/
+outputs/
+reports/figures/
