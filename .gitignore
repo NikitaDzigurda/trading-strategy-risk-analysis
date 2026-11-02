@@ -31,9 +31,8 @@ htmlcov/
 # ML runtime artifacts
 catboost_info/
 
-# Local datasets and generated outputs
-# Use DVC or Git LFS if these files need to be versioned.
-data/*.csv
+# Local market data and generated outputs
+# Closed-position datasets in data/*.csv are versioned with the research.
 data/candles/
 outputs/
 reports/figures/
