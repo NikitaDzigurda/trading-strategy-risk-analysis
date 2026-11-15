@@ -11,6 +11,7 @@ dependencies:
   - numpy
   - matplotlib
   - seaborn
+  - scikit-learn
   - ipywidgets
   - tqdm
   - requests
