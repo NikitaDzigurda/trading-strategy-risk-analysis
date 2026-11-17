@@ -12,6 +12,7 @@ dependencies:
   - matplotlib
   - seaborn
   - scikit-learn
+  - catboost
   - ipywidgets
   - tqdm
   - requests
